@@ -130,21 +130,7 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-arr = [];
-answer = '';
-answer2 = '';
-function multiplyArray(multArr) { //eslint-disable-line
-    let avg1 = 1;
-    for (let i = 0; i < multArr.length; i++) {
-        avg1 = parseInt(multiply(multArr[i], avg1));
-    }
 
-    // let avgres = parseInt(avg1);
-    answer2 = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${avg1}.`
-    arr = [avg1, answer2];
-
-    return arr;
-}
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
